@@ -1,0 +1,24 @@
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+.movies {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 150px;
+    grid-row-gap: 150px;
+}
+
+@media screen and (max-width: 1090px) {
+    .movie {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+}
+
+.loading {
+    
+}
