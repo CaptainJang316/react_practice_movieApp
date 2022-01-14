@@ -50,25 +50,29 @@ export default function Detail({id, coverImg, title, year, summary, genres}) {
             ref={descriptionElementRef}
             tabIndex={-1}
           >
-          <div className={styles.item}>
-          <div><img src={coverImg} className={styles.img}/></div>
-          <div className={styles.text}>
-            <h2>
-            {title}
-            </h2>
-            {year}, 
-            {genres.map((g) => (
-                ` ${g} |`
-              ))} 
+          <div>
+            <div className={styles.item}>
+              <img src={coverImg} className={styles.img}/>
+              <div className={styles.text}>
+                <h2>
+                {title}
+                </h2>
+                Year of release: {year},
+                <br/> 
+                genres: {genres.map((g) => (
+                    ` ${g} |`
+                  ))} 
+                {/* {(movie.hasOwnProperty("genres")?
+                <ul>
+                  {genres.map((g) => (
+                    <li key={g}>{g}</li>
+                  ))}
+                </ul> : null)} */}
+              </div>
+            </div>
             <p>{summary}</p>
-            {/* {(movie.hasOwnProperty("genres")?
-            <ul>
-              {genres.map((g) => (
-                <li key={g}>{g}</li>
-              ))}
-            </ul> : null)} */}
           </div>
-        </div>
+          
             {/* {[...new Array(50)]
               .map(
                 () => `Cras mattis consectetur purus sit amet fermentum.
