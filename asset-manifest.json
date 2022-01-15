@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_practice_movieApp/static/css/main.f6f208d0.css",
-    "main.js": "/react_practice_movieApp/static/js/main.13108252.js",
+    "main.css": "/react_practice_movieApp/static/css/main.477d63d7.css",
+    "main.js": "/react_practice_movieApp/static/js/main.e31080a3.js",
     "static/js/787.faafd6a9.chunk.js": "/react_practice_movieApp/static/js/787.faafd6a9.chunk.js",
     "index.html": "/react_practice_movieApp/index.html",
-    "main.f6f208d0.css.map": "/react_practice_movieApp/static/css/main.f6f208d0.css.map",
-    "main.13108252.js.map": "/react_practice_movieApp/static/js/main.13108252.js.map",
+    "main.477d63d7.css.map": "/react_practice_movieApp/static/css/main.477d63d7.css.map",
+    "main.e31080a3.js.map": "/react_practice_movieApp/static/js/main.e31080a3.js.map",
     "787.faafd6a9.chunk.js.map": "/react_practice_movieApp/static/js/787.faafd6a9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6f208d0.css",
-    "static/js/main.13108252.js"
+    "static/css/main.477d63d7.css",
+    "static/js/main.e31080a3.js"
   ]
 }
